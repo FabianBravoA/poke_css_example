@@ -1,0 +1,36 @@
+#pokelist {
+    position: relative;
+}
+
+#pokelist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#pokelist li,
+#pokelist a {
+    width: 40px;
+    height: 34px;
+    display: block;
+}
+
+#bulbasaur {
+    left: 0px;
+    width: 46px;
+    background: url('img/pokemons.png') 0 0;
+}
+
+#charmander {
+    left: 63px;
+    width: 43px;
+    background: url('img/pokemons.png') -320px 0;
+}
+
+#squirtle {
+    left: 129px;
+    width: 43px;
+    background: url('img/pokemons.png') -720px 0;
+}
